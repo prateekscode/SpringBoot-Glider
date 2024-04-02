@@ -1,0 +1,3 @@
+spring.application.name=glider
+server.port=8090
+linklyra.url=http://localhost:8081/find?+"eid=

@@ -1,0 +1,14 @@
+package com.spring.glider.service.impl;
+
+import com.spring.glider.dto.EmpDTO;
+import com.spring.glider.service.EmpService;
+
+public class EmpServiceImpl implements EmpService {
+
+	@Override
+	public EmpDTO getEmpInfo(int eid) {
+		 
+		return null;
+	}
+
+}

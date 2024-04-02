@@ -1,0 +1,7 @@
+package com.spring.glider.service;
+
+public interface EmpService {
+
+	public EmpDTO getEmpInfo(int eid);
+
+}

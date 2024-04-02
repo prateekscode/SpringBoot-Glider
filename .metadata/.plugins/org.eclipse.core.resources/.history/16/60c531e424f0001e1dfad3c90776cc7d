@@ -1,0 +1,11 @@
+package com.spring.glider.service;
+
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+public class EmpServiceImplTest {
+
+	void testForGetEmpInfo(){
+		
+	}
+}

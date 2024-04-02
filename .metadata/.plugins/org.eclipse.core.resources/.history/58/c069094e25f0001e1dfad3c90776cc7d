@@ -1,0 +1,16 @@
+package com.spring.glider.service;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+import com.spring.glider.service.impl.EmpServiceImpl;
+
+@SpringBootTest
+public class EmpServiceImplTest {
+
+	EmpServiceImpl EmpServiceImpl;
+	
+	@Test
+	void testForGetEmpInfo(){
+		
+	}
+}

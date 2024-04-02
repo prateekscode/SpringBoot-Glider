@@ -1,0 +1,13 @@
+package com.spring.glider.advice;
+
+import org.springframework.web.bind.annotation.ControllerAdvice;
+import org.springframework.web.bind.annotation.ExceptionHandler;
+
+@ControllerAdvice
+public class EmpAdvisor {
+	@ExceptionHandler(Exception.class)
+	Object getException(Exception ex) {
+		System.out.println("if exception occured call this method");
+		return "No Such Element Present";
+	}
+}

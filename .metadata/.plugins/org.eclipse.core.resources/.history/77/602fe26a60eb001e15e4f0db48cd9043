@@ -1,0 +1,5 @@
+package com.spring.glider.service.impl;
+
+public class EmpServiceImpl {
+
+}
